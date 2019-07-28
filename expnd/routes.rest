@@ -1,0 +1,17 @@
+GET http://localhost:3000/subscribers
+
+###
+
+POST http://localhost:3000/subscribers 
+Content-Type: application/json
+
+{"name":"varun","subscribedToChannel":"abcd channel"}
+
+###
+GET http://localhost:3000/note
+###
+
+POST http://localhost:3000/note 
+Content-Type: application/json
+
+{"name":"varun","text":"abcd channel"}
