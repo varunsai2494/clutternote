@@ -1,0 +1,170 @@
+.board {
+    height: 100%;
+    
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    left: 17%;
+    right:25%;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+
+  .board ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+  .board ul li{
+    margin:1em;
+    float:left;
+    
+  }
+
+  
+
+  .sidenav {
+    height: 100%;
+    width: 17%;
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 0px;
+  }
+
+
+  .sidenav ul{
+    
+        width:17%;
+        height:100%;
+        border-style:solid;
+        border-width:1px;
+        list-style-type:none;
+        padding: 0pt;
+        
+    
+  }
+
+
+  .sidenav ul li{
+    margin:0 0 3px 0;
+    
+    
+  }
+  
+
+  .rightpanel {
+    height: 100%;
+    
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    left: 75%;
+    right:0;
+    background-color:#9491785e;
+    /* background-color: white; */
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+ 
+  :host >>> .rightpanel a.note{
+    /* display:flex; */
+    position:relative;
+    top:100;
+    left:40;
+    width:inherit;
+    height:95%;
+    
+  }
+
+  .rightpanel ul{
+    
+    width:inherit;
+    height:60%;
+    border-style:solid;
+    border-width:1px;
+    list-style-type:none;
+    padding: 0pt;
+    align-items: center;
+    
+
+} 
+/* 
+.rightpanel {
+  
+  padding: 1em;
+  position: relative;
+  width: 40%;
+margin-left: 35%;
+margin-right: 30%
+  
+
+} */
+.rightpanel .titleClass {
+  
+  
+  position: absolute;
+  width: 80%;
+box-align: top;
+top:35px;
+height:30px;
+margin-left: 10%;
+margin-right: 10%;
+font-weight: bold;
+font-size:25px;
+
+}
+
+.rightpanel .titlelabel{position: absolute;
+  width: 80%;
+box-align: top;
+top:1px;
+margin-left: 40%;
+margin-right: 10%;
+font-weight: bold;
+}
+
+.textAreaNew  { 
+    
+  text-decoration:none;
+  border-style:solid;
+    color:#000;
+    background:#ffc;
+    display:block;
+    /* padding-left:2em; */
+    padding: 1em ;
+    
+    position:absolute ;
+    top:15%;
+    left:2%;
+    right:5%;
+    width:inherit;
+    height:40%;
+    width :80%;
+    font-size: 30px;
+    border-style: solid;
+  border-width: 2px;
+  
+
+}
+.createBtn{
+  position:absolute;
+  
+  bottom:0px;
+  padding: 10px 10px 10px;
+color:black;
+top:72%;
+height:50px;
+    width :80%;
+    left:10%;
+    right:10%;
+    border-radius: 10px;
+    background-color: rgba(90, 27, 16, 0.267);
+
+}
